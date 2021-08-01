@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="nanam"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-31 07:29:20 "/>
+        <attribute name="created" value="bmFuYW07REVTS1RPUC0zOUFFUjIwOzIwMjEtMDctMzE7IjA2OjQ5OjM3ICI7MjcyOA=="/>
+        <attribute name="edited" value="bmFuYW07REVTS1RPUC0zOUFFUjIwOzIwMjEtMDctMzE7IjA3OjI5OjIwICI7MTsyODI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Nota 1 &#233; &quot; &amp; nota1 &amp; &quot; / &quot; &amp; &quot;Nota 2 &#233; &quot; &amp; nota2 &amp; &quot; / &quot; &amp; &quot;Nota 3 &#233;  &quot; &amp; nota3 &amp; &quot; / &quot; &amp; &quot;Nota 4 &#233; &quot; &amp; nota4 &amp; &quot;. &quot; &amp; &quot;Sua m&#233;dia &#233;  &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
